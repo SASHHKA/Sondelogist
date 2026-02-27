@@ -36,6 +36,6 @@ declare module "$app/types" {
 		};
 		Pathname(): "/";
 		ResolvedPathname(): `${"" | `/${string}`}${ReturnType<AppTypes['Pathname']>}`;
-		Asset(): "/sondelogist-logo.png" | string & {};
+		Asset(): "/favicon.png" | "/sondelogist-logo.png" | string & {};
 	}
 }
